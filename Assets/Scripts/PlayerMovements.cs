@@ -2,20 +2,20 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerMovements : MonoBehaviour
-{
-    public float speed = 5;
-    public Rigidbody2D rb;
-
-    // Update is called once per frame
+{   private Rigidbody2D _rigidbody;
+    [SerializeField] private float _speed;
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+       _rigidbody = GetComponent<Rigidbody2D>();
     }
-    void FixedUpdate()
-    {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
 
-        rb.linearVelocity = new Vector2(horizontal, vertical)*speed;
+    private void OnMove(InputValue inputValue) {
+        
+        var moveInput = inputValue.Get<Vector2>();
+
+        _rigidbody.linearVelocity = moveInput * _speed;
+
+
+        
     }
 }

@@ -10,10 +10,8 @@ public class Arrow : MonoBehaviour
 
     [SerializeField] private float speed = 2;
 
+    [SerializeField] private int damage;
 
-
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -22,10 +20,19 @@ public class Arrow : MonoBehaviour
 
         Destroy(gameObject, autoDestroyTime);
     }
-
-    // Update is called once per frame
-    void Update()
+ 
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            EnemyHealth enemyHealth = collision.gameObject.GetComponent<EnemyHealth>();
+
+            if (enemyHealth != null)
+            {
+               enemyHealth.Damager(damage);
+            }
+            Destroy(gameObject);
+        }
     }
 }

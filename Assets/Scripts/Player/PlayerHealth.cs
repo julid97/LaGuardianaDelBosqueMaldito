@@ -1,19 +1,26 @@
 using System;
-using TMPro;
 using UnityEngine;
+
 
 public class PlayerHealth : MonoBehaviour
 {
-    public TextMeshProUGUI healthValue;
+    public int health;
 
-    public int lives = 5;
+    public int maxHealth = 5;
 
+    public SpriteRenderer playerSprite;
+
+    public PlayerMovements playerMovements;
+
+    private void Start()
+    {
+        health = maxHealth;
+    }
     public void ChangeHealth(int Damage)
     {  
-        lives -= Damage;
-        healthValue.text = lives.ToString();
+        health -= Damage;
         
-        if (lives <= 0)
+        if (health <= 0)
         {
             Die();
         }
@@ -23,6 +30,8 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("El player murió");
 
-        gameObject.SetActive(false);
+        playerSprite.enabled = false;
+
+        playerMovements.enabled = false;
     }
 }

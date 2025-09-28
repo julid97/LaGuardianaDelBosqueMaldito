@@ -2,47 +2,38 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public float speed;
+    public float speed = 2f;
 
     public bool isChasing;
 
     private Rigidbody2D _rb;
 
-    private Transform _player;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private Transform _player;   
+      
+
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
     }
-
-    // Update is called once per frame
     void Update()
     {
-        if (isChasing == true)
+        if (isChasing && _player != null)
         {
             Vector2 direction = (_player.position - transform.position).normalized;
+
             _rb.linearVelocity = direction * speed;
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void SetPlayerTransform(Transform player)
     {
-        if (collision.gameObject.tag == "Player") {
-            if (_player == null) {
-
-                _player = collision.transform;
-            }
-            
-            isChasing = true;
-        }
-        
+        _player = player;
     }
-    private void OnTriggerExit2D(Collider2D collision)
+
+    public void StopChasing()
     {
-        if (collision.CompareTag("Player"))
-        {
-            _rb.linearVelocity = Vector2.zero;
-            isChasing = false;
-        }
+        _player = null;
+
+        _rb.linearVelocity = Vector2.zero;
     }
 }

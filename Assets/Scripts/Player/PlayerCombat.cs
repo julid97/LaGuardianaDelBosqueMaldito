@@ -7,10 +7,24 @@ public class PlayerCombat : MonoBehaviour
     public Transform ArrowStart;
     
     public GameObject arrowPrefab;
-  
-    public void Shoot()
+
+    private PlayerInventory inventory;
+
+    private void Start()
     {
-        Instantiate(arrowPrefab,ArrowStart.position,Quaternion.identity);
+        inventory = GetComponent<PlayerInventory>();
+    }
+    public void Shoot()
+    {   
+        if (inventory.UseArrow())
+        {
+           Instantiate(arrowPrefab, ArrowStart.position, Quaternion.identity);
+        }
+        else
+        {
+            Debug.Log("No hay flechas para disparar");
+        }
+        
     }
     private void OnAttack(InputValue value)
     {

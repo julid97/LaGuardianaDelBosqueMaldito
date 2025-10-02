@@ -209,8 +209,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2715919954435745291}
-  - component: {fileID: 8214486271679876821}
   - component: {fileID: 5280875155967914277}
+  - component: {fileID: 5325360967676437904}
   m_Layer: 0
   m_Name: RangeTrigguer
   m_TagString: Untagged
@@ -233,18 +233,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6445384356338090812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8214486271679876821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6766323538880368536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c11fe826d1c45454ab806543509d6236, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyRangeTrigguer
 --- !u!58 &5280875155967914277
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -281,3 +269,15 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.011042118, y: 0.10490298}
   m_Radius: 3.3986397
+--- !u!114 &5325360967676437904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6766323538880368536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c11fe826d1c45454ab806543509d6236, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyRangeTrigguer

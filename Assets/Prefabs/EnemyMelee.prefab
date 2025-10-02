@@ -130,8 +130,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0999887, y: -0.10832131}
-  m_Size: {x: 0.7875447, y: 1.1156418}
+  m_Offset: {x: 0.033866882, y: -0.0917902}
+  m_Size: {x: 1.1181564, y: 1.4157066}
   m_Direction: 0
 --- !u!50 &6811950848223102667
 Rigidbody2D:
@@ -267,8 +267,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.011042118, y: 0.10490298}
-  m_Radius: 3.3986397
+  m_Offset: {x: -0.011041164, y: -0.40754318}
+  m_Radius: 4.704547
 --- !u!114 &5325360967676437904
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
-    [SerializeField] private int arrows;
+    public int arrows;
     
     public bool UseArrow()
     {

@@ -15,8 +15,10 @@ public class UiHealthManager : MonoBehaviour
 
     public PlayerHealth playerhealth;
 
+
     private void Update()
-    {
+    {   
+
         health = playerhealth.health;
 
         maxHealth = playerhealth.maxHealth;

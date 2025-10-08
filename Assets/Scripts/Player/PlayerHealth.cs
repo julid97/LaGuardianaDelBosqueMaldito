@@ -30,8 +30,6 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("El player murió");
 
-        playerSprite.enabled = false;
-
-        playerMovements.enabled = false;
+        gameObject.SetActive(false);
     }
 }

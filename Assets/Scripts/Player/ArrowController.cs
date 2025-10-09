@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Arrow : MonoBehaviour
+public class ArrowController : MonoBehaviour
 {
     private Rigidbody2D _rb;
 

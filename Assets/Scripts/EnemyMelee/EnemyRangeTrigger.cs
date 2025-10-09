@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyRangeTrigguer : MonoBehaviour
+public class EnemyRangeTrigger : MonoBehaviour
 {
     private EnemyMovement enemy;
 

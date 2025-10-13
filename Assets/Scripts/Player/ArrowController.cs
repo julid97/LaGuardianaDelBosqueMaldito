@@ -6,19 +6,22 @@ public class ArrowController : MonoBehaviour
 
     public Vector2 direction = Vector2.right;
     
-    [SerializeField] private float autoDestroyTime = 2;
+    [SerializeField] private float _autoDestroyTime = 2;
 
-    [SerializeField] private float speed = 2;
+    [SerializeField] private float _speed = 2;
 
-    [SerializeField] private int damage;
+    [SerializeField] private int _damage;
 
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
 
-        _rb.linearVelocity = direction * speed;
+        transform.right = direction;
 
-        Destroy(gameObject, autoDestroyTime);
+
+        _rb.linearVelocity = transform.right * _speed;
+
+        Destroy(gameObject, _autoDestroyTime);
     }
  
     private void OnTriggerEnter2D(Collider2D collision)
@@ -30,7 +33,7 @@ public class ArrowController : MonoBehaviour
 
             if (enemyHealth != null)
             {
-               enemyHealth.Damager(damage);
+               enemyHealth.Damager(_damage);
             }
             Destroy(gameObject);
         }

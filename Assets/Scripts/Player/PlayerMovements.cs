@@ -2,7 +2,9 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerMovements : MonoBehaviour
-{   private Rigidbody2D _rigidbody;
+{   
+    private Rigidbody2D _rigidbody;
+
     [SerializeField] private float _speed;
     private void Start()
     {

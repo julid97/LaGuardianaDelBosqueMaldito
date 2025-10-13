@@ -8,7 +8,6 @@ public class PlayerHealth : MonoBehaviour
 
     public int maxHealth = 5;
 
-    public SpriteRenderer playerSprite;
 
     public PlayerMovements playerMovements;
 

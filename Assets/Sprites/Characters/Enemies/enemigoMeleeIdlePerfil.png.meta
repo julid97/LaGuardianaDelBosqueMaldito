@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 57cb6e237ff41b84f869878f14039f1a
+guid: 3902674dd87b03a409343a8ef6eb7456
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4362851622848562053
-    second: EnemigoMeleeFrente_0
+      213: 5687195654206076350
+    second: enemigoMeleeIdlePerfil_0
+  - first:
+      213: 767784956891841600
+    second: enemigoMeleeIdlePerfil_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EnemigoMeleeFrente_0
+      name: enemigoMeleeIdlePerfil_0
       rect:
         serializedVersion: 2
         x: 4
-        y: 0
-        width: 29
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 3
+        width: 26
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7cff5c70990473c0800000000000000
-      internalID: -4362851622848562053
+      spriteID: eb53911c05afcee40800000000000000
+      internalID: 5687195654206076350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigoMeleeIdlePerfil_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0444d63b958b7aa00800000000000000
+      internalID: 767784956891841600
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 01dca20cdd00d2d428db29e0f30ad40f
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      EnemigoMeleeFrente_0: -4362851622848562053
+      enemigoMeleeIdlePerfil_0: 5687195654206076350
+      enemigoMeleeIdlePerfil_1: 767784956891841600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -6,7 +6,7 @@ public class ArrowController : MonoBehaviour
 
     public Vector2 direction = Vector2.right;
     
-    [SerializeField] private float _autoDestroyTime = 2;
+    [SerializeField] private float _autoDestroyTime = 3;
 
     [SerializeField] private float _speed = 2;
 

@@ -180,5 +180,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Arrow
   direction: {x: 1, y: 0}
   _autoDestroyTime: 2
-  _speed: 2
+  _speed: 4
   _damage: 1

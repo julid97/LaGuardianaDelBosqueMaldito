@@ -11,7 +11,6 @@ public class EnemyRangedCombat : MonoBehaviour
     public float fireTime;
 
     private float fireRate;
-    // Update is called once per frame
     void Update()
     {
        if(Time.time >= fireRate)

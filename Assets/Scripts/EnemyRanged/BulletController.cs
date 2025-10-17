@@ -5,13 +5,13 @@ public class BulletController : MonoBehaviour
 {
     private Rigidbody2D _rb;
 
-    private Vector2 direction;
+    private Vector2 _direction;
 
-    [SerializeField] private float autoDestroyTime = 2;
+    [SerializeField] private float _autoDestroyTime = 2;
 
-    [SerializeField] private float speed = 2;
+    [SerializeField] private float _speed = 2;
 
-    [SerializeField] private int damage;
+    [SerializeField] private int _damage;
 
     private Transform _player;
 
@@ -21,11 +21,11 @@ public class BulletController : MonoBehaviour
 
         _player = GameObject.FindGameObjectWithTag("Player").transform;
 
-        direction = (_player.position - transform.position).normalized;
+        _direction = (_player.position - transform.position).normalized;
 
-        _rb.linearVelocity = direction * speed;
+        _rb.linearVelocity = _direction * _speed;
 
-        Destroy(gameObject, autoDestroyTime);
+        Destroy(gameObject, _autoDestroyTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -37,7 +37,7 @@ public class BulletController : MonoBehaviour
 
             if (playerHealth != null)
             {
-                playerHealth.ChangeHealth(damage);
+                playerHealth.ChangeHealth(_damage);
             }
             Destroy(gameObject);
         }

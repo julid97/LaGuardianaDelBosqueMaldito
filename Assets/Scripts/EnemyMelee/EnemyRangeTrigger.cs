@@ -6,7 +6,7 @@ public class EnemyRangeTrigger : MonoBehaviour
 
     void Awake()
     {
-        enemy= GetComponentInParent<EnemyMovement>();
+        enemy = GetComponentInParent<EnemyMovement>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

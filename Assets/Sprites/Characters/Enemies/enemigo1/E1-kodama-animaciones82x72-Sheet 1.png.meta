@@ -1,0 +1,1729 @@
+fileFormatVersion: 2
+guid: 371bd6ac754dde34a92b92bfb2612804
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8116842679472406186
+    second: E1-kodama-animaciones82x72-Sheet 1_0
+  - first:
+      213: -5203462493696210752
+    second: E1-kodama-animaciones82x72-Sheet 1_1
+  - first:
+      213: 9113790987636440531
+    second: E1-kodama-animaciones82x72-Sheet 1_2
+  - first:
+      213: -6743808419754317088
+    second: E1-kodama-animaciones82x72-Sheet 1_3
+  - first:
+      213: 6599050093422757140
+    second: E1-kodama-animaciones82x72-Sheet 1_4
+  - first:
+      213: 4668665049556921580
+    second: E1-kodama-animaciones82x72-Sheet 1_5
+  - first:
+      213: 1521039720832486062
+    second: E1-kodama-animaciones82x72-Sheet 1_6
+  - first:
+      213: 3971903990674537252
+    second: E1-kodama-animaciones82x72-Sheet 1_7
+  - first:
+      213: -8064619171076542391
+    second: E1-kodama-animaciones82x72-Sheet 1_8
+  - first:
+      213: 3976970710600473714
+    second: E1-kodama-animaciones82x72-Sheet 1_9
+  - first:
+      213: 7347602080648495918
+    second: E1-kodama-animaciones82x72-Sheet 1_10
+  - first:
+      213: 1193880804979674834
+    second: E1-kodama-animaciones82x72-Sheet 1_11
+  - first:
+      213: 1085621744343918598
+    second: E1-kodama-animaciones82x72-Sheet 1_12
+  - first:
+      213: -4894968908695450660
+    second: E1-kodama-animaciones82x72-Sheet 1_13
+  - first:
+      213: -5420197314564992926
+    second: E1-kodama-animaciones82x72-Sheet 1_14
+  - first:
+      213: -6559214871434497670
+    second: E1-kodama-animaciones82x72-Sheet 1_15
+  - first:
+      213: 259741510673853689
+    second: E1-kodama-animaciones82x72-Sheet 1_16
+  - first:
+      213: -3408378830658710713
+    second: E1-kodama-animaciones82x72-Sheet 1_17
+  - first:
+      213: 6583808960841598965
+    second: E1-kodama-animaciones82x72-Sheet 1_18
+  - first:
+      213: 7040220045164466242
+    second: E1-kodama-animaciones82x72-Sheet 1_19
+  - first:
+      213: -352939395184244711
+    second: E1-kodama-animaciones82x72-Sheet 1_20
+  - first:
+      213: -1302777221364900940
+    second: E1-kodama-animaciones82x72-Sheet 1_21
+  - first:
+      213: -2140830781529461396
+    second: E1-kodama-animaciones82x72-Sheet 1_22
+  - first:
+      213: 1764085452189846519
+    second: E1-kodama-animaciones82x72-Sheet 1_23
+  - first:
+      213: -6466198727977975978
+    second: E1-kodama-animaciones82x72-Sheet 1_24
+  - first:
+      213: -2604878365026689083
+    second: E1-kodama-animaciones82x72-Sheet 1_25
+  - first:
+      213: 4313884146003081974
+    second: E1-kodama-animaciones82x72-Sheet 1_26
+  - first:
+      213: -1617839058267156641
+    second: E1-kodama-animaciones82x72-Sheet 1_27
+  - first:
+      213: 7188359705580876467
+    second: E1-kodama-animaciones82x72-Sheet 1_28
+  - first:
+      213: -1806019636761245676
+    second: E1-kodama-animaciones82x72-Sheet 1_29
+  - first:
+      213: -5191399636300504758
+    second: E1-kodama-animaciones82x72-Sheet 1_30
+  - first:
+      213: 8580635092607692730
+    second: E1-kodama-animaciones82x72-Sheet 1_31
+  - first:
+      213: -1517481992373878714
+    second: E1-kodama-animaciones82x72-Sheet 1_32
+  - first:
+      213: -7075768760438382391
+    second: E1-kodama-animaciones82x72-Sheet 1_33
+  - first:
+      213: 5794387610123505654
+    second: E1-kodama-animaciones82x72-Sheet 1_34
+  - first:
+      213: -8722666082949713257
+    second: E1-kodama-animaciones82x72-Sheet 1_35
+  - first:
+      213: 5974757233046905726
+    second: E1-kodama-animaciones82x72-Sheet 1_36
+  - first:
+      213: 5973182802311355810
+    second: E1-kodama-animaciones82x72-Sheet 1_37
+  - first:
+      213: 6288723003225984058
+    second: E1-kodama-animaciones82x72-Sheet 1_38
+  - first:
+      213: 5706457908696849896
+    second: E1-kodama-animaciones82x72-Sheet 1_39
+  - first:
+      213: -8569058503342711017
+    second: E1-kodama-animaciones82x72-Sheet 1_40
+  - first:
+      213: -4023193288683372772
+    second: E1-kodama-animaciones82x72-Sheet 1_41
+  - first:
+      213: 3376497516945137651
+    second: E1-kodama-animaciones82x72-Sheet 1_42
+  - first:
+      213: 7578873728058500977
+    second: E1-kodama-animaciones82x72-Sheet 1_43
+  - first:
+      213: 9123284093578058996
+    second: E1-kodama-animaciones82x72-Sheet 1_44
+  - first:
+      213: 8092637081433351618
+    second: E1-kodama-animaciones82x72-Sheet 1_45
+  - first:
+      213: 8108975359364161271
+    second: E1-kodama-animaciones82x72-Sheet 1_46
+  - first:
+      213: -2230420815578709920
+    second: E1-kodama-animaciones82x72-Sheet 1_47
+  - first:
+      213: -7285612308149751834
+    second: E1-kodama-animaciones82x72-Sheet 1_48
+  - first:
+      213: -8802080004958401877
+    second: E1-kodama-animaciones82x72-Sheet 1_49
+  - first:
+      213: 100466458469474253
+    second: E1-kodama-animaciones82x72-Sheet 1_50
+  - first:
+      213: -5120225992349072651
+    second: E1-kodama-animaciones82x72-Sheet 1_51
+  - first:
+      213: -1123336011660519401
+    second: E1-kodama-animaciones82x72-Sheet 1_52
+  - first:
+      213: 2532971354143150943
+    second: E1-kodama-animaciones82x72-Sheet 1_53
+  - first:
+      213: -352035047397683455
+    second: E1-kodama-animaciones82x72-Sheet 1_54
+  - first:
+      213: -6082864825443512655
+    second: E1-kodama-animaciones82x72-Sheet 1_55
+  - first:
+      213: -6832910793351457982
+    second: E1-kodama-animaciones82x72-Sheet 1_56
+  - first:
+      213: 2770408024413716489
+    second: E1-kodama-animaciones82x72-Sheet 1_57
+  - first:
+      213: -6533361926739758575
+    second: E1-kodama-animaciones82x72-Sheet 1_58
+  - first:
+      213: -8711718978366823561
+    second: E1-kodama-animaciones82x72-Sheet 1_59
+  - first:
+      213: 5706628015736158115
+    second: E1-kodama-animaciones82x72-Sheet 1_60
+  - first:
+      213: 1000359884364428295
+    second: E1-kodama-animaciones82x72-Sheet 1_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 23
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 246
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaebeaf7961d4a070800000000000000
+      internalID: 8116842679472406186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 245
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c84b2d5e6699c7b0800000000000000
+      internalID: -5203462493696210752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 246
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddf937cd90ba7e70800000000000000
+      internalID: 9113790987636440531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 246
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea6143f8fd2962a0800000000000000
+      internalID: -6743808419754317088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 246
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415c871c819849b50800000000000000
+      internalID: 6599050093422757140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 246
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec2f1e702e6ac040800000000000000
+      internalID: 4668665049556921580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 247
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaaca793191db1510800000000000000
+      internalID: 1521039720832486062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 247
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bbc1ea2a90f1730800000000000000
+      internalID: 3971903990674537252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 247
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9407d239797b41090800000000000000
+      internalID: -8064619171076542391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 246
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c59775ac9013730800000000000000
+      internalID: 3976970710600473714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 246
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2389ffb92de7f560800000000000000
+      internalID: 7347602080648495918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 247
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de88f44444819010800000000000000
+      internalID: 1193880804979674834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 247
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6082f008937e01f00800000000000000
+      internalID: 1085621744343918598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 246
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb40a256b3911cb0800000000000000
+      internalID: -4894968908695450660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 245
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260d3d4824797c4b0800000000000000
+      internalID: -5420197314564992926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 174
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71ffae93dcf8f4a0800000000000000
+      internalID: -6559214871434497670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 173
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc632d1789ca9300800000000000000
+      internalID: 259741510673853689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 174
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74350aa038103b0d0800000000000000
+      internalID: -3408378830658710713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 174
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f74ffb0e536e5b50800000000000000
+      internalID: 6583808960841598965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 174
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240dc9494d2e3b160800000000000000
+      internalID: 7040220045164466242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 174
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9184dc27d7b1a1bf0800000000000000
+      internalID: -352939395184244711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 174
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb1313050b9bede0800000000000000
+      internalID: -1302777221364900940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 174
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6de6be2fbd3a42e0800000000000000
+      internalID: -2140830781529461396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_23
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 174
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbc53b4f5a4b7810800000000000000
+      internalID: 1764085452189846519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_24
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 174
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f3acb24827346a0800000000000000
+      internalID: -6466198727977975978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_25
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 174
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfdb71adec99dbd0800000000000000
+      internalID: -2604878365026689083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_26
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 174
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6faf3bc56cefddb30800000000000000
+      internalID: 4313884146003081974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_27
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 174
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fcb3cb2f74c89e0800000000000000
+      internalID: -1617839058267156641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_28
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 172
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b231e0111f22c360800000000000000
+      internalID: 7188359705580876467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_29
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 170
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418477585babfe6e0800000000000000
+      internalID: -1806019636761245676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_30
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 173
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a416737398174f7b0800000000000000
+      internalID: -5191399636300504758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_31
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 102
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfe122972a841770800000000000000
+      internalID: 8580635092607692730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_32
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 101
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640c08bfa22d0fae0800000000000000
+      internalID: -1517481992373878714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_33
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 102
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0a3492dc1ddcd90800000000000000
+      internalID: -7075768760438382391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_34
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 102
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff0658d4dcc96050800000000000000
+      internalID: 5794387610123505654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_35
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 102
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7923f67896dd2f680800000000000000
+      internalID: -8722666082949713257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_36
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 102
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73e4fe3c0a9ae250800000000000000
+      internalID: 5974757233046905726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_37
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 102
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad9d368c1205e250800000000000000
+      internalID: 5973182802311355810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_38
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 102
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ccc1a9048064750800000000000000
+      internalID: 6288723003225984058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_39
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 102
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed189ddb39613f40800000000000000
+      internalID: 5706457908696849896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_40
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 102
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f97b821b6941980800000000000000
+      internalID: -8569058503342711017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_41
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 102
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fba4d050fba28c0800000000000000
+      internalID: -4023193288683372772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_42
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 102
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffd08a2a9abbde20800000000000000
+      internalID: 3376497516945137651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_43
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 77
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177a77640819d2960800000000000000
+      internalID: 7578873728058500977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_44
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 78
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc11bebb8a6c9e70800000000000000
+      internalID: 9123284093578058996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_45
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 101
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c52df68c82de4070800000000000000
+      internalID: 8092637081433351618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_46
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 30
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fedb4b402ed88070800000000000000
+      internalID: 8108975359364161271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_47
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 29
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0604bc3e514fb01e0800000000000000
+      internalID: -2230420815578709920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_48
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 30
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef2581e43e44ea90800000000000000
+      internalID: -7285612308149751834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_49
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 30
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baac2e3fedab8d580800000000000000
+      internalID: -8802080004958401877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_50
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 30
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf1ae036bde46100800000000000000
+      internalID: 100466458469474253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_51
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 30
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2cf4c869d41f8b0800000000000000
+      internalID: -5120225992349072651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_52
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 31
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718129d59db1960f0800000000000000
+      internalID: -1123336011660519401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_53
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 31
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5351fdb60ce62320800000000000000
+      internalID: 2532971354143150943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_54
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 31
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f8f535df15d1bf0800000000000000
+      internalID: -352035047397683455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_55
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 31
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be88be6ba2559ba0800000000000000
+      internalID: -6082864825443512655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_56
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 31
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2439a54f5df9c21a0800000000000000
+      internalID: -6832910793351457982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_57
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 31
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90042128b67727620800000000000000
+      internalID: 2770408024413716489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_58
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 31
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1127d9f51f5d455a0800000000000000
+      internalID: -6533361926739758575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_59
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 29
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773aa6feeb1c91780800000000000000
+      internalID: -8711718978366823561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_60
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 26
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7fe3ff1f3023f40800000000000000
+      internalID: 5706628015736158115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: E1-kodama-animaciones82x72-Sheet 1_61
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 29
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704b713c30ef1ed00800000000000000
+      internalID: 1000359884364428295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      E1-kodama-animaciones82x72-Sheet 1_0: 8116842679472406186
+      E1-kodama-animaciones82x72-Sheet 1_1: -5203462493696210752
+      E1-kodama-animaciones82x72-Sheet 1_10: 7347602080648495918
+      E1-kodama-animaciones82x72-Sheet 1_11: 1193880804979674834
+      E1-kodama-animaciones82x72-Sheet 1_12: 1085621744343918598
+      E1-kodama-animaciones82x72-Sheet 1_13: -4894968908695450660
+      E1-kodama-animaciones82x72-Sheet 1_14: -5420197314564992926
+      E1-kodama-animaciones82x72-Sheet 1_15: -6559214871434497670
+      E1-kodama-animaciones82x72-Sheet 1_16: 259741510673853689
+      E1-kodama-animaciones82x72-Sheet 1_17: -3408378830658710713
+      E1-kodama-animaciones82x72-Sheet 1_18: 6583808960841598965
+      E1-kodama-animaciones82x72-Sheet 1_19: 7040220045164466242
+      E1-kodama-animaciones82x72-Sheet 1_2: 9113790987636440531
+      E1-kodama-animaciones82x72-Sheet 1_20: -352939395184244711
+      E1-kodama-animaciones82x72-Sheet 1_21: -1302777221364900940
+      E1-kodama-animaciones82x72-Sheet 1_22: -2140830781529461396
+      E1-kodama-animaciones82x72-Sheet 1_23: 1764085452189846519
+      E1-kodama-animaciones82x72-Sheet 1_24: -6466198727977975978
+      E1-kodama-animaciones82x72-Sheet 1_25: -2604878365026689083
+      E1-kodama-animaciones82x72-Sheet 1_26: 4313884146003081974
+      E1-kodama-animaciones82x72-Sheet 1_27: -1617839058267156641
+      E1-kodama-animaciones82x72-Sheet 1_28: 7188359705580876467
+      E1-kodama-animaciones82x72-Sheet 1_29: -1806019636761245676
+      E1-kodama-animaciones82x72-Sheet 1_3: -6743808419754317088
+      E1-kodama-animaciones82x72-Sheet 1_30: -5191399636300504758
+      E1-kodama-animaciones82x72-Sheet 1_31: 8580635092607692730
+      E1-kodama-animaciones82x72-Sheet 1_32: -1517481992373878714
+      E1-kodama-animaciones82x72-Sheet 1_33: -7075768760438382391
+      E1-kodama-animaciones82x72-Sheet 1_34: 5794387610123505654
+      E1-kodama-animaciones82x72-Sheet 1_35: -8722666082949713257
+      E1-kodama-animaciones82x72-Sheet 1_36: 5974757233046905726
+      E1-kodama-animaciones82x72-Sheet 1_37: 5973182802311355810
+      E1-kodama-animaciones82x72-Sheet 1_38: 6288723003225984058
+      E1-kodama-animaciones82x72-Sheet 1_39: 5706457908696849896
+      E1-kodama-animaciones82x72-Sheet 1_4: 6599050093422757140
+      E1-kodama-animaciones82x72-Sheet 1_40: -8569058503342711017
+      E1-kodama-animaciones82x72-Sheet 1_41: -4023193288683372772
+      E1-kodama-animaciones82x72-Sheet 1_42: 3376497516945137651
+      E1-kodama-animaciones82x72-Sheet 1_43: 7578873728058500977
+      E1-kodama-animaciones82x72-Sheet 1_44: 9123284093578058996
+      E1-kodama-animaciones82x72-Sheet 1_45: 8092637081433351618
+      E1-kodama-animaciones82x72-Sheet 1_46: 8108975359364161271
+      E1-kodama-animaciones82x72-Sheet 1_47: -2230420815578709920
+      E1-kodama-animaciones82x72-Sheet 1_48: -7285612308149751834
+      E1-kodama-animaciones82x72-Sheet 1_49: -8802080004958401877
+      E1-kodama-animaciones82x72-Sheet 1_5: 4668665049556921580
+      E1-kodama-animaciones82x72-Sheet 1_50: 100466458469474253
+      E1-kodama-animaciones82x72-Sheet 1_51: -5120225992349072651
+      E1-kodama-animaciones82x72-Sheet 1_52: -1123336011660519401
+      E1-kodama-animaciones82x72-Sheet 1_53: 2532971354143150943
+      E1-kodama-animaciones82x72-Sheet 1_54: -352035047397683455
+      E1-kodama-animaciones82x72-Sheet 1_55: -6082864825443512655
+      E1-kodama-animaciones82x72-Sheet 1_56: -6832910793351457982
+      E1-kodama-animaciones82x72-Sheet 1_57: 2770408024413716489
+      E1-kodama-animaciones82x72-Sheet 1_58: -6533361926739758575
+      E1-kodama-animaciones82x72-Sheet 1_59: -8711718978366823561
+      E1-kodama-animaciones82x72-Sheet 1_6: 1521039720832486062
+      E1-kodama-animaciones82x72-Sheet 1_60: 5706628015736158115
+      E1-kodama-animaciones82x72-Sheet 1_61: 1000359884364428295
+      E1-kodama-animaciones82x72-Sheet 1_7: 3971903990674537252
+      E1-kodama-animaciones82x72-Sheet 1_8: -8064619171076542391
+      E1-kodama-animaciones82x72-Sheet 1_9: 3976970710600473714
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

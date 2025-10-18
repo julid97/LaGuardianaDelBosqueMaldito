@@ -9,54 +9,69 @@ public class EnemyMovement : MonoBehaviour
     private Rigidbody2D _rb;
 
     private Transform _player;
-    //test animacion 
-    private Animator _animator;
-    private Vector2 _lastDirection;
 
+    private Animator _animator;
+
+    private Vector2 _lastDirection;
 
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
-        //test animacion
+
         _animator = GetComponent<Animator>();
     }
+
     void Update()
     {
         if (isChasing && _player != null)
         {
-            Vector2 direction = (_player.position - transform.position).normalized;
+            // Calcula la dirección sin normalizar para poder medir la distancia
+            Vector2 direction = _player.position - transform.position;
 
-            _rb.linearVelocity = direction * speed;
-            //test animacion - Enviar direccion al animator
-            _animator.SetFloat("MovementX", direction.x);
-            _animator.SetFloat("MovementY", direction.y);
-            _animator.SetFloat("Movement", direction.magnitude);
-            //personaje quedara en posicion que deja de caminar
-            if (direction.magnitude > 0.01f)
+            if (direction.magnitude > 0.05f)
             {
-                _lastDirection = direction;
+                Vector2 moveDir = direction.normalized;
+
+                _rb.linearVelocity = moveDir * speed;
+
+                // Pasa dirección y movimiento al Animator
+                _animator.SetFloat("MovementX", moveDir.x);
+                _animator.SetFloat("MovementY", moveDir.y);
+                _animator.SetFloat("Movement", _rb.linearVelocity.magnitude);
+
+                // Guarda la última dirección de movimiento
+                _lastDirection = moveDir;
             }
             else
-            {//detener movimiento
+            {
+                // Si está cerca del jugador, se detiene
                 _rb.linearVelocity = Vector2.zero;
-                //mantener ultima direccion mirada
+
+                // Mantiene la última dirección en la que miraba
                 _animator.SetFloat("MovementX", _lastDirection.x);
                 _animator.SetFloat("MovementY", _lastDirection.y);
                 _animator.SetFloat("Movement", 0f);
-
             }
         }
-    }
+        else
+        {
+            // Si no está persiguiendo, se detiene
+            _rb.linearVelocity = Vector2.zero;
 
+            // Mantiene la última dirección
+            _animator.SetFloat("MovementX", _lastDirection.x);
+            _animator.SetFloat("MovementY", _lastDirection.y);
+            _animator.SetFloat("Movement", 0f);
+        }
+    }
     public void SetPlayerTransform(Transform player)
     {
         _player = player;
     }
-
     public void StopChasing()
     {
         _player = null;
-
+        isChasing = false;
         _rb.linearVelocity = Vector2.zero;
     }
 }

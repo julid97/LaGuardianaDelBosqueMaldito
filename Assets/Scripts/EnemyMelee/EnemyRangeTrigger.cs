@@ -24,8 +24,6 @@ public class EnemyRangeTrigger : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             enemy.StopChasing();
-
-            enemy.isChasing = false;
         }
     }
 }

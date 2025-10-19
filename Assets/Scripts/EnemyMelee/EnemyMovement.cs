@@ -23,9 +23,9 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
+        // se mueve si esta persiguiendo al jugador
         if (isChasing && _player != null)
-        {
-            // Calcula la dirección sin normalizar para poder medir la distancia
+        {   
             Vector2 direction = _player.position - transform.position;
 
             if (direction.magnitude > 0.05f)
@@ -34,20 +34,16 @@ public class EnemyMovement : MonoBehaviour
 
                 _rb.linearVelocity = moveDir * speed;
 
-                // Pasa dirección y movimiento al Animator
                 _animator.SetFloat("MovementX", moveDir.x);
                 _animator.SetFloat("MovementY", moveDir.y);
                 _animator.SetFloat("Movement", _rb.linearVelocity.magnitude);
 
-                // Guarda la última dirección de movimiento
                 _lastDirection = moveDir;
             }
             else
             {
-                // Si está cerca del jugador, se detiene
+                // Cerca del jugador se detiene
                 _rb.linearVelocity = Vector2.zero;
-
-                // Mantiene la última dirección en la que miraba
                 _animator.SetFloat("MovementX", _lastDirection.x);
                 _animator.SetFloat("MovementY", _lastDirection.y);
                 _animator.SetFloat("Movement", 0f);
@@ -55,19 +51,19 @@ public class EnemyMovement : MonoBehaviour
         }
         else
         {
-            // Si no está persiguiendo, se detiene
+            // No esta persiguiendo  se detiene
             _rb.linearVelocity = Vector2.zero;
-
-            // Mantiene la última dirección
             _animator.SetFloat("MovementX", _lastDirection.x);
             _animator.SetFloat("MovementY", _lastDirection.y);
             _animator.SetFloat("Movement", 0f);
         }
     }
+
     public void SetPlayerTransform(Transform player)
     {
         _player = player;
     }
+
     public void StopChasing()
     {
         _player = null;

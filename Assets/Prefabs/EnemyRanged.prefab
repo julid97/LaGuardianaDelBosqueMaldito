@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 1794350446167708836}
   - component: {fileID: 1381679930447590887}
   - component: {fileID: 2978034070243388751}
+  - component: {fileID: 6147950493756136531}
   m_Layer: 0
   m_Name: EnemyRanged
   m_TagString: Enemy
@@ -300,3 +301,25 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5145594814447212384, guid: 621d7bc11b6a8cc4a8dfe9e84489e0f0, type: 3}
   isRanged: 0
   fireTime: 1.5
+--- !u!95 &6147950493756136531
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8129728936948692026}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9d68b4bc16a4cc34390a21fe9280754f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

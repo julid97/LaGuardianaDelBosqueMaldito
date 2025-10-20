@@ -37,7 +37,7 @@ public class BulletController : MonoBehaviour
 
             if (playerHealth != null)
             {
-                playerHealth.ChangeHealth(_damage);
+                playerHealth.LoseHealth(_damage);
             }
             Destroy(gameObject);
         }

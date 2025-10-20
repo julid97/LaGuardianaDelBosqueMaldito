@@ -28,7 +28,7 @@ public class EnemyCombat : MonoBehaviour
             PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
-                playerHealth.ChangeHealth(damage);
+                playerHealth.LoseHealth(damage);
             }
 
             _nextAttackTime = Time.time + attackCooldown;

@@ -15,13 +15,23 @@ public class PlayerHealth : MonoBehaviour
     {
         health = maxHealth;
     }
-    public void ChangeHealth(int Damage)
+    public void LoseHealth(int Damage)
     {  
         health -= Damage;
         
         if (health <= 0)
         {
             Die();
+        }
+    }
+
+    public void AddHealth(int lives)
+    {
+        health += lives;
+
+        if (health > maxHealth)
+        {
+            health = maxHealth;
         }
     }
 

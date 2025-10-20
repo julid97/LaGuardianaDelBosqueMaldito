@@ -2,20 +2,20 @@ using UnityEngine;
 
 public class EnemyRangeTrigger : MonoBehaviour
 {
-    private EnemyMovement enemy;
+    private EnemyMovement _enemy;
 
     void Awake()
     {
-        enemy = GetComponentInParent<EnemyMovement>();
+        _enemy = GetComponentInParent<EnemyMovement>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            enemy.SetPlayerTransform(collision.transform);
+            _enemy.SetPlayerTransform(collision.transform);
 
-            enemy.isChasing = true;
+            _enemy.isChasing = true;
         }
     }
 
@@ -23,7 +23,8 @@ public class EnemyRangeTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            enemy.StopChasing();
+            _enemy.isChasing = false;
+            _enemy.StopChasing();
         }
     }
 }

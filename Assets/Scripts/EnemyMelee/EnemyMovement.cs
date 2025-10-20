@@ -6,6 +6,7 @@ public class EnemyMovement : MonoBehaviour
 
     public bool isChasing;
 
+
     private Rigidbody2D _rb;
 
     private Transform _player;
@@ -14,36 +15,47 @@ public class EnemyMovement : MonoBehaviour
 
     private Vector2 _lastDirection;
 
+    private EnemyCombat combat;
+
+    [SerializeField] private float _stopMovement = 1.026f;
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
 
         _animator = GetComponent<Animator>();
+
+        combat = GetComponent<EnemyCombat>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         // se mueve si esta persiguiendo al jugador
         if (isChasing && _player != null)
-        {   
-            Vector2 direction = _player.position - transform.position;
+        {
+            float distance = Vector2.Distance(transform.position, _player.position);
 
-            if (direction.magnitude > 0.05f)
+            Vector2 direction = (_player.position - transform.position).normalized;
+
+            if (combat != null && combat.isAttacking)
             {
-                Vector2 moveDir = direction.normalized;
+                _rb.linearVelocity = Vector2.zero;
+            }
+            else if (distance >= _stopMovement)
+            {
+                // Se mueve hacia el jugador
+                _rb.linearVelocity = direction * speed;
 
-                _rb.linearVelocity = moveDir * speed;
-
-                _animator.SetFloat("MovementX", moveDir.x);
-                _animator.SetFloat("MovementY", moveDir.y);
+                _animator.SetFloat("MovementX", direction.x);
+                _animator.SetFloat("MovementY", direction.y);
                 _animator.SetFloat("Movement", _rb.linearVelocity.magnitude);
 
-                _lastDirection = moveDir;
+                _lastDirection = direction;
             }
             else
             {
-                // Cerca del jugador se detiene
+                // Esta lo suficientemente cerca se detiene
                 _rb.linearVelocity = Vector2.zero;
+
                 _animator.SetFloat("MovementX", _lastDirection.x);
                 _animator.SetFloat("MovementY", _lastDirection.y);
                 _animator.SetFloat("Movement", 0f);
@@ -51,8 +63,7 @@ public class EnemyMovement : MonoBehaviour
         }
         else
         {
-            // No esta persiguiendo  se detiene
-            _rb.linearVelocity = Vector2.zero;
+            // Si no esta persiguiendo
             _animator.SetFloat("MovementX", _lastDirection.x);
             _animator.SetFloat("MovementY", _lastDirection.y);
             _animator.SetFloat("Movement", 0f);

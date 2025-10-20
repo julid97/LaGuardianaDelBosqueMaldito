@@ -3,9 +3,13 @@ using UnityEngine;
 public class EnemyCombat : MonoBehaviour
 {
     public int damage = 1;
+
     public float attackCooldown = 1.5f;
 
+    public bool isAttacking;
+
     private Animator _animator;
+
     private float _nextAttackTime;
 
     void Start()
@@ -13,33 +17,29 @@ public class EnemyCombat : MonoBehaviour
         _animator = GetComponent<Animator>();
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    // Método que llamamos desde EnemyAttackRange
+    public void TryAttack(GameObject player)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (Time.time >= _nextAttackTime)
         {
-            if (Time.time >= _nextAttackTime)
-            {
-                // Activar animación de ataque
-                _animator.SetBool("IsAttacking", true);
+            _animator.SetBool("IsAttacking", true);
 
-                // Buscar el componente de salud
-                PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
-                if (playerHealth != null)
-                {
-                    playerHealth.ChangeHealth(damage);
-                }
-                // Reiniciar cooldown
-                _nextAttackTime = Time.time + attackCooldown;
+            isAttacking = true;
+
+            PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+
+            if (playerHealth != null)
+            {
+                playerHealth.ChangeHealth(damage);
             }
+
+            _nextAttackTime = Time.time + attackCooldown;
         }
     }
-
-    private void OnCollisionExit2D(Collision2D collision)
+    public void StopAttack()
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
+        _animator.SetBool("IsAttacking", false);
 
-            _animator.SetBool("IsAttacking", false);
-        }
+        isAttacking = false;
     }
 }

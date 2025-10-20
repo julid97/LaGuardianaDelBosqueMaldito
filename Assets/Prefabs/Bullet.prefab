@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.20609039, g: 0.9528302, b: 0.112362035, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -141,9 +141,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 199412b043b623e4ea67d282f6bd3b26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletController
-  autoDestroyTime: 2
-  speed: 4
-  damage: 1
+  _autoDestroyTime: 3
+  _speed: 3
+  _damage: 1
 --- !u!50 &8539235983983315223
 Rigidbody2D:
   serializedVersion: 5

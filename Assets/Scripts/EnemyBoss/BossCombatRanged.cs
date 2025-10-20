@@ -3,8 +3,11 @@ using UnityEngine;
 public class BossCombatRanged : MonoBehaviour
 {
     public Transform spellStart;
+
     public GameObject spellPrefab;
+
     public float fireTime;
+
 
     private float _fireRate;
 

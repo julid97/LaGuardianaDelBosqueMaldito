@@ -10,13 +10,13 @@ public class EnemyRangedCombat : MonoBehaviour
 
     public float fireTime;
 
-    private float fireRate;
+    private float _fireRate;
     void Update()
     {
-       if(Time.time >= fireRate)
+       if(Time.time >= _fireRate)
         {
             Shoot();
-            fireRate = Time.time + fireTime;
+            _fireRate = Time.time + fireTime;
         }
     }
 

@@ -2,25 +2,25 @@ using UnityEngine;
 
 public class MeleeRangeDetector : MonoBehaviour
 {
-    private BossCombatController bossCombat;
+    private BossCombatController _bossCombat;
 
     private void Start()
     {
-        bossCombat = GetComponentInParent<BossCombatController>();
+        _bossCombat = GetComponentInParent<BossCombatController>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            bossCombat.PlayerInMeleeRange();
+            _bossCombat.PlayerInMeleeRange();
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            bossCombat.PlayerOutOfRange();
+            _bossCombat.PlayerOutOfRange();
         }
     }
             

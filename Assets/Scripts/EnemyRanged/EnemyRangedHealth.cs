@@ -4,8 +4,6 @@ public class EnemyRangedHealth : MonoBehaviour
 {
     public int lives;
 
-
-
     public void Damager(int damage)
     {
         lives -= damage;

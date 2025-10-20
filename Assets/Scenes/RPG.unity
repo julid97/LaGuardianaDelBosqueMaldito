@@ -3815,11 +3815,11 @@ GameObject:
   - component: {fileID: 1360089119}
   - component: {fileID: 1360089123}
   - component: {fileID: 1360089126}
-  - component: {fileID: 1360089121}
   - component: {fileID: 1360089127}
   - component: {fileID: 1360089130}
   - component: {fileID: 1360089129}
   - component: {fileID: 1360089131}
+  - component: {fileID: 1360089132}
   m_Layer: 0
   m_Name: EnemyBoss
   m_TagString: Enemy
@@ -3903,19 +3903,6 @@ Transform:
   - {fileID: 1085467216}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1360089121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1360089118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f53fdba4258cb59499011bb1ba5ae785, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  lives: 5
 --- !u!50 &1360089123
 Rigidbody2D:
   serializedVersion: 5
@@ -4047,6 +4034,19 @@ MonoBehaviour:
   spellStart: {fileID: 1085467216}
   spellPrefab: {fileID: 8830824950373468715, guid: 456079d41501b93408cdfaf1b7effbc5, type: 3}
   fireTime: 2
+--- !u!114 &1360089132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360089118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 138644d5b67a4d841bd33ced831e179a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyRangedHealth
+  lives: 7
 --- !u!1001 &1375206895
 PrefabInstance:
   m_ObjectHideFlags: 0

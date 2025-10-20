@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
 
     public int maxHealth = 5;
 
+    private bool healed;
 
     public PlayerMovements playerMovements;
 
@@ -27,14 +28,31 @@ public class PlayerHealth : MonoBehaviour
 
     public void AddHealth(int lives)
     {
-        health += lives;
-
-        if (health > maxHealth)
+        healed = false;
+        if (health < maxHealth)
         {
-            health = maxHealth;
+            health += lives;
+
+            if (health > maxHealth)
+            {
+                health = maxHealth;
+            }
+
+            healed = true;
         }
     }
-
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Heart"))
+        {
+            AddHealth(1);
+            if (healed)
+            {
+                Destroy(collision.gameObject);
+            }
+ 
+        }
+    }
     public void Die()
     {
         Debug.Log("El player murió");

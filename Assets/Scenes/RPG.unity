@@ -4016,6 +4016,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyCombat
   damage: 3
+  attackCooldown: 1.5
+  isAttacking: 0
 --- !u!114 &1360089130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4246,6 +4248,26 @@ PrefabInstance:
     - target: {fileID: 6445384356338090812, guid: e823e5626baefdd43b2c17e295a46a66, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046363471170444013, guid: e823e5626baefdd43b2c17e295a46a66, type: 3}
+      propertyPath: m_Size.x
+      value: 1.3078117
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046363471170444013, guid: e823e5626baefdd43b2c17e295a46a66, type: 3}
+      propertyPath: m_Size.y
+      value: 1.7242775
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046363471170444013, guid: e823e5626baefdd43b2c17e295a46a66, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.045267105
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046363471170444013, guid: e823e5626baefdd43b2c17e295a46a66, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046363471170444013, guid: e823e5626baefdd43b2c17e295a46a66, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

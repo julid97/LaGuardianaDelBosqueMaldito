@@ -11,6 +11,13 @@ public class EnemyRangedCombat : MonoBehaviour
     public float fireTime;
 
     private float fireRate;
+
+    private Animator _animator;
+
+    private void Start()
+    {
+        _animator = GetComponent<Animator>();
+    }
     void Update()
     {
        if(Time.time >= fireRate)
@@ -25,6 +32,12 @@ public class EnemyRangedCombat : MonoBehaviour
         if (isRanged)
         {
             Instantiate(bulletPrefab, bulletStart.position, Quaternion.identity);
+
+            _animator.SetBool("IsAttacking", true);
+        }
+        else
+        {
+            _animator.SetBool("IsAttacking", false);
         }
     }
 }

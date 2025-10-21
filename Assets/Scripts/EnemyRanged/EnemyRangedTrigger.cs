@@ -2,17 +2,23 @@ using UnityEngine;
 
 public class EnemyRangedTrigger : MonoBehaviour
 {
-    private EnemyRangedCombat enemy;
+    private EnemyRangedCombat _enemyCombat;
+
+    private EnemyRangedMovement _enemyMovement;
 
     void Awake()
     {
-        enemy = GetComponentInParent<EnemyRangedCombat>();
+        _enemyCombat = GetComponentInParent<EnemyRangedCombat>();
+        _enemyMovement = GetComponentInParent<EnemyRangedMovement>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            enemy.isRanged = true;
+            _enemyCombat.isRanged = true;
+
+            _enemyMovement.SetPlayerTransform(collision.transform);
+            
         }
     }
 
@@ -20,7 +26,9 @@ public class EnemyRangedTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            enemy.isRanged = false;
+            _enemyCombat.isRanged = false;
+
+            _enemyMovement?.SetPlayerTransform(null);
         }
     }
 }

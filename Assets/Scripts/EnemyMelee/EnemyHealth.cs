@@ -4,7 +4,7 @@ using System.Collections;
 public class EnemyHealth : MonoBehaviour
 {
     public int lives;
-    private bool isDead = false;
+    private bool _isDead = false;
 
     private Animator _animator;
 
@@ -15,7 +15,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void Damager(int damage)
     {
-        if (isDead) return; // evita seguir recibiendo daño si ya está muerto
+        if (_isDead) return; // evita seguir recibiendo daño si ya está muerto
 
         lives -= damage;
         _animator.SetBool("TakeDamage", true);
@@ -36,7 +36,7 @@ public class EnemyHealth : MonoBehaviour
     }
     private void Die()
     {
-        isDead = true;
+        _isDead = true;
 
         _animator.SetBool("IsDead", true);
 

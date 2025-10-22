@@ -31,9 +31,21 @@ public class ArrowController : MonoBehaviour
         {
             EnemyHealth enemyHealth = collision.gameObject.GetComponent<EnemyHealth>();
 
+            EnemyRangedHealth enemyRangedHealth = collision.gameObject.GetComponent<EnemyRangedHealth>();
+
+            BossHealth bossHealth = collision.gameObject.GetComponent<BossHealth>();
+
             if (enemyHealth != null)
             {
                enemyHealth.Damager(_damage);
+            }
+            else if(enemyRangedHealth != null)
+            {
+                enemyRangedHealth.Damager(_damage);
+            }
+            else if(bossHealth != null)
+            {
+                bossHealth.Damager(_damage);
             }
             Destroy(gameObject);
         }

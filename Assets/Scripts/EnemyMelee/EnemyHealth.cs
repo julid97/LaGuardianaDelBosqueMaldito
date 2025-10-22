@@ -26,7 +26,6 @@ public class EnemyHealth : MonoBehaviour
         }
         else
         {
-            // resetea el bool después de un breve tiempo
             StartCoroutine(ResetTakeDamage());
         }
     }

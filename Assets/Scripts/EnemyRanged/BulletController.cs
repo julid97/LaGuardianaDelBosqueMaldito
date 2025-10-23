@@ -13,15 +13,20 @@ public class BulletController : MonoBehaviour
 
     [SerializeField] private int _damage;
 
-    private Transform _player;
+    private GameObject _player;
+    private Transform _playerTransform;
 
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
 
-        _player = GameObject.FindGameObjectWithTag("Player").transform;
+        _player = GameObject.FindGameObjectWithTag("Player");
 
-        _direction = (_player.position - transform.position).normalized;
+        if (_player == null) return;
+
+        _playerTransform = _player.transform;
+
+        _direction = (_playerTransform.position - transform.position).normalized;
 
         _rb.linearVelocity = _direction * _speed;
 

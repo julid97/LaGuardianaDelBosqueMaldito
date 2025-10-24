@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
 
 public class EnemyRangedCombat : MonoBehaviour
 {
@@ -10,9 +12,9 @@ public class EnemyRangedCombat : MonoBehaviour
 
     public float fireTime;
 
-    private float fireRate;
-
     private Animator _animator;
+
+    private bool _canShoot = true;
 
     private void Start()
     {
@@ -20,18 +22,39 @@ public class EnemyRangedCombat : MonoBehaviour
     }
     void Update()
     {
-       if(Time.time >= fireRate)
+        if (isRanged && _canShoot)
         {
-            Shoot();
-            fireRate = Time.time + fireTime;
+            StartCoroutine(ShootRoutine());
         }
     }
 
+    private IEnumerator ShootRoutine()
+    {
+        _canShoot = false;
+
+        _animator.SetBool("IsAttacking", true);
+
+        // Dispara en el frame 4
+        yield return new WaitForSeconds(0.66f);
+
+        Instantiate(bulletPrefab, bulletStart.position, Quaternion.identity);
+
+        //espera a que termine la animacion(1s total 0.66f + 0.34f)
+        yield return new WaitForSeconds(0.34f);
+
+        _animator.SetBool("IsAttacking", false);
+
+        //Espera el tiempo entre disparos para poder volver a disparar
+        yield return new WaitForSeconds(fireTime);
+
+        _canShoot = true;
+
+    }
     private void Shoot()
     {
         if (isRanged)
         {
-            Instantiate(bulletPrefab, bulletStart.position, Quaternion.identity);
+            
 
             _animator.SetBool("IsAttacking", true);
         }

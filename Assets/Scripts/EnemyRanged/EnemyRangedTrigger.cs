@@ -28,7 +28,7 @@ public class EnemyRangedTrigger : MonoBehaviour
         {
             _enemyCombat.isRanged = false;
 
-            _enemyMovement?.SetPlayerTransform(null);
+            _enemyMovement.SetPlayerTransform(null);
         }
     }
 }

@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     {
         if (Keyboard.current.rKey.wasPressedThisFrame)
         {
-            SceneManager.LoadScene("RPG");
+            SceneManager.LoadScene("Game");
         }
 
         if (Keyboard.current.escapeKey.wasPressedThisFrame)

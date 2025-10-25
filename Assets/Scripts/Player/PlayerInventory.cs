@@ -24,7 +24,7 @@ public class PlayerInventory : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Arrow"))
         {
-            AddArrows(6);
+            AddArrows(15);
             
             Destroy(collision.gameObject);
         }

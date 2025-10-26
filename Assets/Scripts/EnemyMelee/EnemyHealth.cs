@@ -31,7 +31,7 @@ public class EnemyHealth : MonoBehaviour
     }
     private IEnumerator ResetTakeDamage()
     {
-        yield return new WaitForSeconds(1.9f);//Creo que aca está el problema de que se reproduzca tanto la animacion de daño 
+        yield return new WaitForSeconds(0.35f);
         _animator.SetBool("TakeDamage", false);
     }
     private void Die()

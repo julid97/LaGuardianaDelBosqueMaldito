@@ -1,61 +1,56 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyMovement : MonoBehaviour
 {
     public float speed = 2f;
-
     public bool isChasing;
 
-
-    private Rigidbody2D _rb;
-
+    private NavMeshAgent _agent;
     private Transform _player;
-
     private Animator _animator;
-
-    private Vector2 _lastDirection;
-
     private EnemyCombat _combat;
 
-    [SerializeField] private float _stopMovement = 1.026f;
+    [SerializeField] private float _stopDistance = 1.0f;
+    private Vector2 _lastDirection;
+
     void Start()
     {
-        _rb = GetComponent<Rigidbody2D>();
-
+        _agent = GetComponent<NavMeshAgent>();
         _animator = GetComponent<Animator>();
-
         _combat = GetComponent<EnemyCombat>();
+
+        // Configuración necesaria para 2D
+        _agent.updateRotation = false;
+        _agent.updateUpAxis = false;
+        _agent.speed = speed;
     }
 
     void FixedUpdate()
     {
-        // se mueve si esta persiguiendo al jugador
         if (isChasing && _player != null)
         {
             float distance = Vector2.Distance(transform.position, _player.position);
 
-            Vector2 direction = (_player.position - transform.position).normalized;
-
             if (_combat != null && _combat.isAttacking)
             {
-                _rb.linearVelocity = Vector2.zero;
+                _agent.isStopped = true;
             }
-            else if (distance >= _stopMovement)
+            else if (distance >= _stopDistance)
             {
-                // Se mueve hacia el jugador
-                _rb.linearVelocity = direction * speed;
+                _agent.isStopped = false;
+                _agent.SetDestination(_player.position);
 
+                Vector2 direction = (_player.position - transform.position).normalized;
                 _animator.SetFloat("MovementX", direction.x);
                 _animator.SetFloat("MovementY", direction.y);
-                _animator.SetFloat("Movement", _rb.linearVelocity.magnitude);
+                _animator.SetFloat("Movement", _agent.velocity.magnitude);
 
                 _lastDirection = direction;
             }
             else
             {
-                // Está lo suficientemente cerca se detiene
-                _rb.linearVelocity = Vector2.zero;
-
+                _agent.isStopped = true;
                 _animator.SetFloat("MovementX", _lastDirection.x);
                 _animator.SetFloat("MovementY", _lastDirection.y);
                 _animator.SetFloat("Movement", 0f);
@@ -63,7 +58,7 @@ public class EnemyMovement : MonoBehaviour
         }
         else
         {
-            // Si no está persiguiendo
+            _agent.isStopped = true;
             _animator.SetFloat("MovementX", _lastDirection.x);
             _animator.SetFloat("MovementY", _lastDirection.y);
             _animator.SetFloat("Movement", 0f);
@@ -79,6 +74,7 @@ public class EnemyMovement : MonoBehaviour
     {
         _player = null;
         isChasing = false;
-        _rb.linearVelocity = Vector2.zero;
+        _agent.isStopped = true;
     }
 }
+

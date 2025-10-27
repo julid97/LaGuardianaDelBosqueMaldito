@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerInventory : MonoBehaviour
 {
     public int arrows;
+    public int keys;
     
     public bool UseArrow()
     {
@@ -28,10 +29,21 @@ public class PlayerInventory : MonoBehaviour
             
             Destroy(collision.gameObject);
         }
+        else if (collision.gameObject.CompareTag("Key"))
+        {
+            AddKeys(1);
+
+            Destroy(collision.gameObject);
+        }
     }
 
     public void AddArrows(int amount)
     {
         arrows += amount;
+    }
+
+    public void AddKeys(int amount)
+    {
+        keys += amount;
     }
 }

@@ -40,6 +40,6 @@ public class EnemyHealth : MonoBehaviour
 
         _animator.SetBool("IsDead", true);
 
-        Destroy(gameObject, 3.2f); 
+        Destroy(gameObject, 0.45f); 
     }
 }

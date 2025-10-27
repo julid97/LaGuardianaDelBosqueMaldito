@@ -9,12 +9,10 @@ public class DoorManager : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             PlayerInventory playerInventory = collision.gameObject.GetComponent<PlayerInventory>();
-            Debug.Log("colisiono con el player");
             if (playerInventory != null)
             {
                 if(playerInventory.keys >= 3)
                 {
-                    Debug.Log(playerInventory.keys);
                     Destroy(gameObject);
                 }
             }

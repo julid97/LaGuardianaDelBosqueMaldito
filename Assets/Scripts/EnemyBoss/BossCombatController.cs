@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BossCombatController : MonoBehaviour
 {
-    public EnemyCombat meleeAttack;
+    public BossCombatMelee meleeAttack;
 
     public BossCombatRanged rangedAttack;
 

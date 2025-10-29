@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class PlayerHealth : MonoBehaviour
@@ -53,10 +54,10 @@ public class PlayerHealth : MonoBehaviour
  
         }
     }
-    public void Die()
-    {
-        Debug.Log("El player murió");
 
+    public void Die()//este metodo le podria agregar una corutina cuando tenga la animaciond de muerte, activo la animacion y espero unos segundos para ir al menu de pausa
+    {
         gameObject.SetActive(false);
+        SceneManager.LoadScene("GameOver");
     }
 }

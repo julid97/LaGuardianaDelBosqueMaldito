@@ -7,14 +7,18 @@ public class PlayerCombatRanged : MonoBehaviour
     public Transform ArrowStart;
     public GameObject arrowPrefab;
 
-    private PlayerInventory inventory;
+    private PlayerInventory _inventory;
+
     private Camera _targetCamera;
+
     private Vector2 _pointPosition;
+
     private Animator _animator;
 
+    private bool _canAttack = true;
     private void Start()
     {
-        inventory = GetComponent<PlayerInventory>();
+        _inventory = GetComponent<PlayerInventory>();
         _targetCamera = Camera.main;
         _animator = GetComponent<Animator>();
     }
@@ -27,7 +31,9 @@ public class PlayerCombatRanged : MonoBehaviour
 
     private void OnAttackRanged(InputValue value)
     {
-        if (inventory.UseArrow())
+        if (!_canAttack) return; // si esta en cooldown no hace nada 
+
+        if (_inventory.UseArrow())
         {
             _animator.SetTrigger("AttackRanged");
             StartCoroutine(ShootRoutine());
@@ -35,7 +41,8 @@ public class PlayerCombatRanged : MonoBehaviour
     }
 
     private IEnumerator ShootRoutine()
-    {
+    {   
+        _canAttack = false;
         // Espera 0.64 segundos: el momento en que el personaje suelta la flecha
         yield return new WaitForSeconds(0.64f);
 
@@ -45,6 +52,11 @@ public class PlayerCombatRanged : MonoBehaviour
         GameObject arrow = Instantiate(arrowPrefab, ArrowStart.position, Quaternion.identity);
         ArrowController arrowController = arrow.GetComponent<ArrowController>();
         arrowController.direction = direction;
+
+        // Espera el resto de la animacion antes de permitir otro ataque
+        yield return new WaitForSeconds(0.443f);
+
+        _canAttack = true;
     }
 }
 

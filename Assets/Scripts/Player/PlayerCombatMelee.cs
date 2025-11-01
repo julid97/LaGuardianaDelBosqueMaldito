@@ -25,9 +25,10 @@ public class PlayerCombatMelee : MonoBehaviour
     {
         // Espera hasta el frame donde impacta la espada
         yield return new WaitForSeconds(0.33f);
-
+        // Detecta todos los colliders de los enemigos en un círculo alrededor de la posición del golpe de espada y los guarda en un array
         Collider2D[] enemies = Physics2D.OverlapCircleAll(swordHit.position, swordRange, enemyLayer);
 
+        // Recorre los enemigos detectados
         foreach (var enemy in enemies)
         {
             // Intenta obtener EnemyHealth

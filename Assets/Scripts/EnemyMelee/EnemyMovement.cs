@@ -28,6 +28,17 @@ public class EnemyMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (_player != null)
+        {
+            PlayerHealth playerHealth = _player.GetComponent<PlayerHealth>();
+            if (playerHealth == null || playerHealth.isDead)
+            {
+                StopChasing();           
+                _combat.StopAttack();    
+                return;                  
+            }
+        }
+
         if (isChasing && _player != null)
         {
             float distance = Vector2.Distance(transform.position, _player.position);

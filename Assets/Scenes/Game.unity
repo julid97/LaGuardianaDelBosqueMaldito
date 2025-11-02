@@ -11285,6 +11285,7 @@ MonoBehaviour:
   health: 5
   maxHealth: 5
   playerMovements: {fileID: 1344054811}
+  isDead: 0
 --- !u!114 &1344054818
 MonoBehaviour:
   m_ObjectHideFlags: 0

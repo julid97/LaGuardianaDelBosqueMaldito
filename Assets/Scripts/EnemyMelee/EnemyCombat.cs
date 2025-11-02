@@ -21,15 +21,16 @@ public class EnemyCombat : MonoBehaviour
     {
         if (Time.time >= _nextAttackTime)
         {
+            PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+
+            if (playerHealth == null || playerHealth.isDead)
+                return;
+
             _animator.SetBool("IsAttacking", true);
 
             isAttacking = true;
 
-            PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
-            if (playerHealth != null)
-            {
-                playerHealth.LoseHealth(damage);
-            }
+            playerHealth.LoseHealth(damage);
 
             _nextAttackTime = Time.time + attackCooldown;
         }

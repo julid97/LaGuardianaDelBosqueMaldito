@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 
 public class PlayerHealth : MonoBehaviour
@@ -13,17 +14,25 @@ public class PlayerHealth : MonoBehaviour
 
     public PlayerMovements playerMovements;
 
+    private Animator _animator;
     private void Start()
     {
         health = maxHealth;
+        _animator = GetComponent<Animator>();
     }
     public void LoseHealth(int Damage)
     {  
         health -= Damage;
+
+        _animator.SetBool("TakeDamage", true);
         
         if (health <= 0)
         {
             Die();
+        }
+        else
+        {
+            StartCoroutine(ResetTakeDamage());
         }
     }
 
@@ -55,6 +64,11 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    private IEnumerator ResetTakeDamage()
+    {
+        yield return new WaitForSeconds(0.35f);
+        _animator.SetBool("TakeDamage", false);
+    }
     public void Die()//este metodo le podria agregar una corutina cuando tenga la animaciond de muerte, activo la animacion y espero unos segundos para ir al menu de pausa
     {
         gameObject.SetActive(false);

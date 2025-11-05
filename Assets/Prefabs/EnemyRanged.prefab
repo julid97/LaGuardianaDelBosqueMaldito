@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 138644d5b67a4d841bd33ced831e179a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyRangedHealth
-  lives: 5
+  lives: 3
 --- !u!114 &7883429540481811673
 MonoBehaviour:
   m_ObjectHideFlags: 0

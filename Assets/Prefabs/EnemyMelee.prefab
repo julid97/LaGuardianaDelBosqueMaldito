@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35085ee15ae36d845b1a1f39e84d835f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  speed: 2
+  speed: 3
   isChasing: 0
   _stopDistance: 1
 --- !u!114 &68645930256299684
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f53fdba4258cb59499011bb1ba5ae785, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  lives: 5
+  lives: 3
 --- !u!95 &2090102600340678228
 Animator:
   serializedVersion: 7
@@ -210,7 +210,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.45652175
-  m_Speed: 2
+  m_Speed: 3
   m_Acceleration: 100
   avoidancePriority: 50
   m_AngularSpeed: 0

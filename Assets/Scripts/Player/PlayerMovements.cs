@@ -7,7 +7,7 @@ public class PlayerMovements : MonoBehaviour
 
     private Animator _animator;
 
-    private Vector2 _lastDirection;
+    public Vector2 lastDirection;
 
     private Vector2 _moveInput;
 
@@ -24,15 +24,15 @@ public class PlayerMovements : MonoBehaviour
 
         if(_moveInput != Vector2.zero)
         {
-            _lastDirection = _moveInput;
+            lastDirection = _moveInput;
 
             _animator.SetFloat("MovementX", _moveInput.x);
             _animator.SetFloat("MovementY", _moveInput.y);
         }
         else
         {
-            _animator.SetFloat("MovementX", _lastDirection.x);
-            _animator.SetFloat("MovementY", _lastDirection.y);
+            _animator.SetFloat("MovementX", lastDirection.x);
+            _animator.SetFloat("MovementY", lastDirection.y);
         }
 
         _animator.SetBool("IsMoving", _moveInput != Vector2.zero);

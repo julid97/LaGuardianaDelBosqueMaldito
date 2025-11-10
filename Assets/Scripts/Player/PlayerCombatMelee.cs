@@ -24,7 +24,7 @@ public class PlayerCombatMelee : MonoBehaviour
         Vector2 lastDir = _playerMovements.lastDirection;
 
         // Si nunca se movio usa la direccion frente del personaje
-        if (lastDir == Vector2.zero) lastDir = Vector2.right;
+        if (lastDir == Vector2.zero) lastDir = Vector2.down;
 
         // Coloca swordHit en la direccion del ataque
         swordHit.localPosition = lastDir.normalized * swordRange;

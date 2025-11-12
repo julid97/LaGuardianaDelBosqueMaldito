@@ -2,13 +2,11 @@ using UnityEngine;
 
 public class RangedRangeDetector : MonoBehaviour
 {
-    private BossCombatController _bossCombat;
 
     private BossMovement _bossMovement;
-
+    public bool isRanged;
     private void Start()
     {
-        _bossCombat = GetComponentInParent<BossCombatController>();
 
         _bossMovement = GetComponentInParent<BossMovement>();
     }
@@ -17,9 +15,9 @@ public class RangedRangeDetector : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            _bossCombat.PlayerInRangedRange();
 
             _bossMovement.isRange = true; 
+            isRanged = true;
         }
     }
 
@@ -27,9 +25,9 @@ public class RangedRangeDetector : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            _bossCombat.PlayerOutOfRange();
 
             _bossMovement.isRange = false; 
+            isRanged = false;
         }
     }
 }

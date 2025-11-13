@@ -19,4 +19,18 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("WinGame");
         }
     }
+
+    public void GoMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+    public void PauseMenu()
+    {
+        SceneManager.LoadScene("PauseMenu");
+    }
+
+    public void Restart()
+    {
+
+    }
 }

@@ -180,4 +180,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletController
   _autoDestroyTime: 3
   _speed: 5
-  _damage: 2
+  _damage: 1

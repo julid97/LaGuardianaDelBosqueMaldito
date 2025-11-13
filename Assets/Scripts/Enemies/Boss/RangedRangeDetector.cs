@@ -5,7 +5,7 @@ public class RangedRangeDetector : MonoBehaviour
 
     private BossMovement _bossMovement;
     public bool isRanged;
-    private void Start()
+    private void Awake()
     {
 
         _bossMovement = GetComponentInParent<BossMovement>();

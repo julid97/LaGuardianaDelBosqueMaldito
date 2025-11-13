@@ -40,6 +40,6 @@ public class BossHealth : MonoBehaviour
 
         _animator.SetBool("IsDead", true);
 
-        Destroy(gameObject, 1.2f);
+        Destroy(gameObject, 1.1f);
     }
 }

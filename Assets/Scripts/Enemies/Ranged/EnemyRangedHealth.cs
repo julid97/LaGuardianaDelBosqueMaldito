@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class EnemyRangedHealth : MonoBehaviour
 {
@@ -19,9 +20,15 @@ public class EnemyRangedHealth : MonoBehaviour
 
         lives -= damage;
 
+        _animator.SetBool("TakeDamage", true);
+
         if (lives <= 0)
         {
             Die();
+        }
+        else
+        {
+            StartCoroutine(ResetTakeDamage());
         }
     }
 
@@ -32,5 +39,11 @@ public class EnemyRangedHealth : MonoBehaviour
         _isDead = true;
 
         Destroy(gameObject, 1.5f);
+    }
+
+    private IEnumerator ResetTakeDamage()
+    {
+        yield return new WaitForSeconds(0.35f);
+        _animator.SetBool("TakeDamage", false);
     }
 }

@@ -11,7 +11,7 @@ public class DoorManager : MonoBehaviour
             PlayerInventory playerInventory = collision.gameObject.GetComponent<PlayerInventory>();
             if (playerInventory != null)
             {
-                if(playerInventory.keys >= 3)
+                if(playerInventory.keys >= 4)
                 {
                     Destroy(gameObject);
                 }

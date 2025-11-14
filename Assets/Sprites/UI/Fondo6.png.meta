@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6d48f11da94a77745b6baadb775a9a2e
+guid: d3c7e0036a79e8c45b1426304a42e1b6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5546521419647986326
-    second: "Dise\xF1o sin t\xEDtulo_0"
+      213: 6229463135275062975
+    second: Fondo6_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Dise\xF1o sin t\xEDtulo_0"
+      name: Fondo6_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 2560
+        height: 1430
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6559c2d72cc603b0800000000000000
-      internalID: -5546521419647986326
+      spriteID: fb6167767bf737650800000000000000
+      internalID: 6229463135275062975
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Dise\xF1o sin t\xEDtulo_0": -5546521419647986326
+      Fondo6_0: 6229463135275062975
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

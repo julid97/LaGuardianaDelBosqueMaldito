@@ -24,10 +24,14 @@ public class PlayerInventory : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Arrow"))
-        {
-            AddArrows(15);
-            
-            Destroy(collision.gameObject);
+        {   
+            if (arrows < 45)
+            {
+                AddArrows(15);
+
+                Destroy(collision.gameObject);
+            }
+
         }
         else if (collision.gameObject.CompareTag("Key"))
         {

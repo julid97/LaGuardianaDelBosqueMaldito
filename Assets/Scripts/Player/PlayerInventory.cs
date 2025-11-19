@@ -25,7 +25,7 @@ public class PlayerInventory : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Arrow"))
         {   
-            if (arrows < 45)
+            if (arrows < 60)
             {
                 AddArrows(15);
 
